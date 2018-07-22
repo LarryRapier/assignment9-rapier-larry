@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -59,16 +59,18 @@ nav ul li {
 }
 
 section.hero-section {
-    padding: 115px 10px;
     background: url(../images/galaxy.jpg) center;
     background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    text-align: center;
+
 }
 
 .hero-content {
-  float: right;
   background: white;
   padding: 35px;
-  margin-top: -70px;
+  margin: 0 auto;
 }
 
 .hero-other-content {
