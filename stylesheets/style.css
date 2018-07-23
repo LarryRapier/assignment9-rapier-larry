@@ -16,13 +16,21 @@ p {
 	margin: 15px 0px;
 	line-height: 25px;
 }
-
+p.main-body::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
 .container {
   width: 100%;
   margin: 0 auto;
 }
+.container-header {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2px 2px;
+}
 .container-bottom {
-  width: 50%;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -32,7 +40,7 @@ main.container {
 
 header {
   background: #333;
-  padding: 10px 0;
+  padding: 2px 0;
   position: fixed;
   left: 0;
   right: 0;
@@ -126,7 +134,7 @@ section.home-final img {
 
 }
 
-.console{
+.console {
 	width: 250px;
 	display: inline-block;
 	margin-top: 10px;
@@ -159,6 +167,7 @@ section.home-final img {
 
 #social-footer{
   width: 100%;
+  max-width: 900px;
   margin: 0 auto;
   font-size: 10px;
 }
@@ -170,6 +179,9 @@ footer {
 
 footer.container {
   text-align: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 footer nav a {
